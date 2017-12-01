@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="project.api.com.experimental_tictac.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_toEndOf="@+id/button1"
+            android:layout_toRightOf="@+id/button1"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/button2"
+            android:layout_toRightOf="@+id/button2"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button1"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:layout_toEndOf="@+id/button1"
+            android:layout_toRightOf="@+id/button1"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:layout_toEndOf="@+id/button5"
+            android:layout_toRightOf="@+id/button5"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button4"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button5"
+            android:layout_toEndOf="@+id/button7"
+            android:layout_toRightOf="@+id/button7"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button6"
+            android:layout_toEndOf="@+id/button8"
+            android:layout_toRightOf="@+id/button8"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button9"
+            android:layout_alignRight="@+id/button9"
+            android:layout_below="@+id/button9"
+            android:layout_marginTop="25dp"
+            android:text="Connect" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/button9"
+            android:layout_toStartOf="@+id/button9"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Android" />
+
+        <EditText
+            android:id="@+id/ipAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="IP address"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/retryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ipAddress"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:layout_toEndOf="@+id/ipAddress"
+            android:layout_toRightOf="@+id/ipAddress"
+            android:text="Retry" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
