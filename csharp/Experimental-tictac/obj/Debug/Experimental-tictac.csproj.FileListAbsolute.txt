@@ -1,0 +1,12 @@
+C:\Users\acer\Documents\Visual Studio 2013\Projects\Experimental-tictac\Experimental-tictac\bin\Debug\Experimental-tictac.exe
+C:\Users\acer\Documents\Visual Studio 2013\Projects\Experimental-tictac\Experimental-tictac\bin\Debug\Experimental-tictac.pdb
+C:\Users\acer\documents\visual studio 2013\Projects\Experimental-tictac\Experimental-tictac\bin\Debug\Experimental-tictac.exe.config
+C:\Users\acer\documents\visual studio 2013\Projects\Experimental-tictac\Experimental-tictac\obj\Debug\MainWindow.baml
+C:\Users\acer\documents\visual studio 2013\Projects\Experimental-tictac\Experimental-tictac\obj\Debug\MainWindow.g.cs
+C:\Users\acer\documents\visual studio 2013\Projects\Experimental-tictac\Experimental-tictac\obj\Debug\App.g.cs
+C:\Users\acer\documents\visual studio 2013\Projects\Experimental-tictac\Experimental-tictac\obj\Debug\Experimental-tictac_MarkupCompile.cache
+C:\Users\acer\documents\visual studio 2013\Projects\Experimental-tictac\Experimental-tictac\obj\Debug\Experimental-tictac.g.resources
+C:\Users\acer\documents\visual studio 2013\Projects\Experimental-tictac\Experimental-tictac\obj\Debug\Experimental_tictac.Properties.Resources.resources
+C:\Users\acer\documents\visual studio 2013\Projects\Experimental-tictac\Experimental-tictac\obj\Debug\Experimental-tictac.csproj.GenerateResource.Cache
+C:\Users\acer\documents\visual studio 2013\Projects\Experimental-tictac\Experimental-tictac\obj\Debug\Experimental-tictac.exe
+C:\Users\acer\documents\visual studio 2013\Projects\Experimental-tictac\Experimental-tictac\obj\Debug\Experimental-tictac.pdb
