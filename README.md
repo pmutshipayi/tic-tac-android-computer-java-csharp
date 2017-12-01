@@ -9,5 +9,5 @@ The two divice must be connected on the same network. But actually you need to c
 <b>How to create an hospot on windows ??? </b><br><br>
 Run <b>cmd</b> as administrator then run the following command :<br><br>
 <b>netsh start hostednetwork</b><br>
-then run your windows game, below it gonna show the api address of your computer<br>
+then run your windows game, below it gonna show the ip address of your computer<br>
 
