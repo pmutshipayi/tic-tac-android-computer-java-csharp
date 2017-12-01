@@ -11,3 +11,6 @@ Run <b>cmd</b> as administrator then run the following command :<br><br>
 <b>netsh start hostednetwork</b><br>
 then run your windows game, below it gonna show the ip address of your computer<br>
 
+![Screenshot 2](https://github.com/pmutshipayi/tic-tac-android-computer-java-csharp/blob/master/screenshot/Capture.PNG?raw=true "Optional Title")<br>
+![Screenshot 2](https://github.com/pmutshipayi/tic-tac-android-computer-java-csharp/blob/master/screenshot/Capture.PNG1?raw=true "Optional Title")<br>
+![Screenshot 2](https://github.com/pmutshipayi/tic-tac-android-computer-java-csharp/blob/master/screenshot/Capture.PNG2?raw=true "Optional Title")
