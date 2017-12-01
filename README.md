@@ -1,6 +1,6 @@
 # tic-tac-android-computer-java-csharp
 A tic tac game for two player, one using a computer (window) and the other using an android smartphone.<br><br>
-<b>ANDROID TIC TAC</b>
+<b>ANDROID TIC TAC</b><br><br>
 I didn't upload all android project, But you can simply take the code from <b>android/app/src/...</b> and past them into your own project.<br>
 and also take care of <b>android/res/layout</b><br><br><br>
 
